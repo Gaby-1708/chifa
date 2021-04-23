@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LI - FARFI</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+
+    <header class="site-headers">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                </a>
+                <div class="mobile-menu">
+                    <span class="icon-menu"></span>
+                </div>
+
+
+                <nav class="navegacion">
+                    <ul class="show">
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="anuncios.html">Carta</a></li>
+                        <li><a href="blog.html" class="activo">Blog</a></li>
+                        <li><a href="contacto.html">Contactos</a></li>
+                        <li><a href="login-crud/index.php">Administrador</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <main class="contenedor top seccion contenido-centrado">
+        <h1 class="fw-300 centrar-texto">Nuestro Blog</h1>
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img src="img/mayonesa mini.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada1.html" class="btn" onclick="enviar(1)">
+                    <h4>¿Cómo hacer mayonesa casera?</h4>
+                </a>
+
+                <p>Escrito el: <span> 21/11/2020 </span> por: <span> Admin </span> </p>
+                <p>La mayonesa casera es una receta muy fácil de hacer que técnicamente se basa en una emulsión de materias grasas y proteínas. El primer secreto para que quede perfecta y no se corte es emplear todos los ingredientes a la misma temperatura,
+                    la recomendación es que sea a unos 20 ℃.</p>
+            </div>
+        </article>
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img src="img/sopa-wantán mini.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada2.html" class="btn" onclick="enviar(2)">
+                    <h4>Receta de Sopa Wantán</h4>
+                </a>
+                <p>Escrito el: <span> 23/11/2020 </span> por: <span> Admin </span> </p>
+                <p>La sopa wantán se ha vuelto una comida tan peruana que sería un crimen no escribir una receta sobre ella. Este platillo tiene un origen Chino, pero gracias a la migración de estos, esta sopa se ha vuelto muy consumida por los peruanos.</p>
+            </div>
+        </article>
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img src="img/mini chaufa.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada3.html" class="btn" onclick="enviar(3)">
+                    <h4>¿Cómo hacer arroz chaufa?</h4>
+                </a>
+                <p>Escrito el: <span> 23/11/2020 </span> por: <span> Admin </span> </p>
+                <p>El arroz chaufa es un clásico de la gastronomía peruana, se consume generalmente por las noches en los tradicionales “chifas”, pero también como segundo de un almuerzo. Se prepara con diferentes tipos de carnes, pero el más popular es
+                    el arroz chaufa de pollo.</p>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <ul class="show">
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="anuncios.html">Carta</a></li>
+                    <li><a href="blog.html" class="activo">Blog</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                    <li><a href="login-crud/index.php">Administrador</a></li>
+                </ul>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2020 &copy; </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
